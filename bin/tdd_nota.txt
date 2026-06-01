@@ -1,0 +1,10 @@
+NOTA SOBRE EL CICLO TDD - ParImpar
+====================================
+ROJO: Escribi el test esPar(4) esperando true antes de tener la clase ParImpar.
+      El test fallo porque la clase no existia todavia (fase roja esperada).
+
+VERDE: Implemente el minimo codigo posible en ParImpar: return numero % 2 == 0.
+       Ambos tests (esPar(4)==true y esPar(5)==false) pasaron de inmediato.
+
+REFACTOR: El metodo ya era simple y claro; no fue necesario restructurar.
+          El nombre esPar() describe bien su proposito, no se realizo cambio adicional.

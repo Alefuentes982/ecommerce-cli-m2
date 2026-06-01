@@ -1,0 +1,12 @@
+TEORIA DE PRUEBAS UNITARIAS
+============================
+Una prueba unitaria verifica el comportamiento de una unidad minima de codigo (metodo o clase)
+de forma aislada, sin depender de sistemas externos.
+
+Ventaja 1: Detectan errores rapidamente durante el desarrollo, antes de llegar a produccion.
+Ventaja 2: Facilitan el refactor seguro, ya que confirman que el comportamiento no cambio.
+Limitacion: No prueban la integracion entre componentes ni el sistema completo.
+
+Fixture: Conjunto de objetos o condiciones iniciales preparadas antes de cada prueba (@BeforeEach).
+Mock: Objeto simulado que reemplaza una dependencia real y permite controlar su comportamiento.
+Assertion: Sentencia que verifica que el resultado obtenido coincide con el resultado esperado.
